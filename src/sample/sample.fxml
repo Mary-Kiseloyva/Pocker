@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="575.0" fitWidth="774.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/полотно.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="TextName" layoutX="327.0" layoutY="377.0" />
+      <ImageView fitHeight="310.0" fitWidth="394.0" layoutX="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/Twitch-Full-2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="StartTheGame" layoutX="305.0" layoutY="440.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="193.0" style="-fx-background-color: #ff8c69;" text="Начать игру" textAlignment="CENTER" textFill="#cc1212" textOverrun="CLIP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="NumberOfPlayers" editable="true" layoutX="327.0" layoutY="296.0" />
+   </children>
+</AnchorPane>

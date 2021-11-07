@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewController">
+   <children>
+      <ImageView fx:id="Card4" fitHeight="102.0" fitWidth="65.0" layoutX="341.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="402.0" fitWidth="694.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/table.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Card1" fitHeight="102.0" fitWidth="57.0" layoutX="127.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Card2" fitHeight="96.0" fitWidth="57.0" layoutX="209.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Card3" fitHeight="102.0" fitWidth="65.0" layoutX="286.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Card5" fitHeight="129.0" fitWidth="77.0" layoutX="456.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Card6" fitHeight="117.0" fitWidth="77.0" layoutX="23.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Card7" fitHeight="117.0" fitWidth="85.0" layoutX="127.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="HandOutCards" layoutX="579.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: #7fb5b5;" text="Раздать карты" />
+      <TextArea fx:id="Bank" layoutX="578.0" layoutY="299.0" prefHeight="102.0" prefWidth="108.0" style="-fx-background-color: #7fb5b5;" />
+      <Spinner fx:id="Bet" layoutX="269.0" layoutY="362.0" />
+      <Button fx:id="Pass" layoutX="439.0" layoutY="359.0" mnemonicParsing="false" style="-fx-background-color: #7fb5b5;" text="Пас" />
+      <Button fx:id="PlaseABet" layoutX="270.0" layoutY="328.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="151.0" style="-fx-background-color: #7fb5b5;" text="Сделать ставку" />
+   </children>
+</AnchorPane>
